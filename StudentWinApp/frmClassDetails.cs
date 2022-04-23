@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace StudentWinApp
 {
-    public partial class Form1 : Form
+    public partial class frmClassDetails : Form
     {
-        public Form1()
+        public frmClassDetails()
         {
             InitializeComponent();
         }
-
     }
 }

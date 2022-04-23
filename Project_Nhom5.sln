@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Data Layer", "2.Data Laye
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Presentation Layer", "3.Presentation Layer", "{A3F764C9-9FD5-477B-8428-1C08E5AE406A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{52CBB653-11BB-48D8-873D-330B8766019C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{52CBB653-11BB-48D8-873D-330B8766019C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{8F548F9A-B733-4E9E-92D3-88E077F55036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{8F548F9A-B733-4E9E-92D3-88E077F55036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentWinApp", "StudentWinApp\StudentWinApp.csproj", "{DFB10643-90E0-4ECD-98CC-93065C7088B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentWinApp", "StudentWinApp\StudentWinApp.csproj", "{DFB10643-90E0-4ECD-98CC-93065C7088B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
