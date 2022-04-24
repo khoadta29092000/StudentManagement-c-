@@ -7,11 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BusinessObject;
+using DataAccess.DAO;
+using DataAccess.Repository;
 
 namespace StudentWinApp
 {
     public partial class frmMain : Form
     {
+        public IMemberRepository MemberRepository { get; set; }
+        public MemberObject MemberInfo { get; set; }
+        public string Admin;
+        public bool? Role;
         public frmMain()
         {
             InitializeComponent();
@@ -19,7 +26,20 @@ namespace StudentWinApp
 
         private void Main_Load(object sender, EventArgs e)
         {
-
+            if (Admin.Equals("admin@gmail.com"))
+            {
+                teacherToolStripMenuItem.Visible = false;
+                studentToolStripMenuItem.Visible = false;
+            }
+           else if(Role == true)
+            {
+                managementToolStripMenuItem.Visible = false;
+                studentToolStripMenuItem.Visible = false; 
+            }else if(Role == false)
+            {
+                managementToolStripMenuItem.Visible = false;
+                teacherToolStripMenuItem.Visible = false;
+            }
         }
 
         private void logoutToolStripMenuItem_Click(object sender, EventArgs e)

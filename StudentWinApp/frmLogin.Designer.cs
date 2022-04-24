@@ -95,6 +95,7 @@ namespace StudentWinApp
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exits";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // txtPassword
             // 
@@ -124,6 +125,7 @@ namespace StudentWinApp
             this.Controls.Add(this.lbPassword);
             this.Controls.Add(this.lbEmail);
             this.Name = "frmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
